@@ -3,10 +3,23 @@
 <html>
     <head>
         <title>About Me Page</title>
+        <style>
+            .main {
+                margin: 2.5px;
+                padding: 2.5px;
+            }
+        </style>
+
+        <meta charset="UTF-8">
+        <meta name="author" content="Mads Porse Pedersen">
+        <meta name="description" content="aboute me page">
+        <meta name="keywords" content="HTML, CSS, XML, Javascript, about me">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-    <main>
-        <header>
+    <main class="main">
+        <header id="top">
+            <p><a href="#bottom">Bottom of page</a></p>
             <h1>About Me</h1>
                 <p>This page is about me and my interests. This page was made during the completion of an online course, named <strong>DEV284x - Designing a Technical Solution.</strong>
                 and hosted by <a href="https://www.edx.org/">edX.org</a>.
@@ -25,6 +38,15 @@
                             <li>Exercising</li>
                         </ol>
                     </p>
+                    <p>Which one of the things listed above interests you? Pick below!</p>
+                    <select>
+                        <option value="video_games">Video games</option>
+                        <option value="programming">Programming</option>
+                        <option value="biological_topics">Biological topics</option>
+                        <option value="web_development">Web Development</option>
+                        <option value="video_image_editing">Video and image editing</option>
+                        <option value="exercising" selected>Exercising</option>
+                    </select>
             </section>
             <section>
                 <h2>Education</h2>
@@ -37,6 +59,21 @@
                     </p>
             </section>
         </article>
+        <article>
+            <section>
+                <h2>End section</h2>
+                <p>Just to make sure that this page isn't too bland, here's a picture of a cute cat obtained from <a href="https://www.reddit.com/r/aww/comments/9qxb3h/getting_ready_to_meet_my_crush_do_i_look_good/">Reddit</a>:</p>
+                <a href="https://i.redd.it/2peu66p8w2u11.png">
+                    <img src="https://i.redd.it/2peu66p8w2u11.png" alt="Image of cute cat with bowtie" style="width:333px;">
+                </a>
+            </section>
+        </article>
+        <hr>
+        <footer id="bottom">
+            <p><a href="#top">Top of page</a></p>
+            <p>Website created by: Mads Porse Pedersen</p>
+            <p>Contact information: <a href="mailto:someone@example.com"> someone@example.com </a></p>
+        </footer>
     </main>
     </body>
 </html>
