@@ -1,17 +1,25 @@
 h1 {
-    font-family: 'Arial Narrow Bold', sans-serif
+    color: black;
+    font-family: 'Arial Narrow Bold', sans-serif;
 }
 h2 {
-    font-family: 'Arial Narrow Bold', sans-serif
+    color: black;
+    font-family: 'Arial Narrow Bold', sans-serif;
 }
+body {
+    color: rgb(85, 85, 85);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*
 p {
     color: rgb(85, 85, 85);
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 li{
     color: rgb(85, 85, 85);
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
+*/
 main {
     margin: 2.5px;
     padding: 2.5px;
